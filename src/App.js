@@ -76,10 +76,16 @@ const App = ({ signOut }) => {
   }
 
   return (
-    <View className="App">
+    <View className="App flex flex-col items-center p-8">
+
+      <Image
+        src="/FINAL LOGO.png"
+        alt="Marcoverse Logo"
+        className="w-24 mx-auto mb-6 rounded-lg shadow-lg"
+      />
       <Heading level={1}>Bucket List Tracker</Heading>
       <View as="form" margin="3rem 0" onSubmit={createNote}>
-        <Flex direction="row" justifyContent="center">
+        <Flex direction="column" justifyContent="center" gap="4">
           <TextField
             name="name"
             placeholder="Enter your wish"
@@ -102,7 +108,8 @@ const App = ({ signOut }) => {
             type="file"
             style={{ alignSelf: "end" }}
           />
-          <Button type="submit" variation="primary">
+          <Button type="submit" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-800">
+
             Add a wish
           </Button>
         </Flex>
