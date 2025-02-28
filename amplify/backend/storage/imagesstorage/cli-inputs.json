@@ -1,0 +1,13 @@
+{
+  "resourceName": "imagesstorage",
+  "policyUUID": "24f36a24",
+  "bucketName": "bucket4bucketlist",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE"
+}

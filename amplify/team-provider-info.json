@@ -1,0 +1,28 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bucketlist-staging-935eb-authRole",
+      "UnauthRoleArn": "arn:aws:iam::382405273802:role/amplify-bucketlist-staging-935eb-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::382405273802:role/amplify-bucketlist-staging-935eb-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bucketlist-staging-935eb-deployment",
+      "UnauthRoleName": "amplify-bucketlist-staging-935eb-unauthRole",
+      "StackName": "amplify-bucketlist-staging-935eb",
+      "StackId": "arn:aws:cloudformation:us-east-1:382405273802:stack/amplify-bucketlist-staging-935eb/6d35b580-f5ef-11ef-a6a5-12202fc0dba7",
+      "AmplifyAppId": "dc2nlltqlji8s"
+    },
+    "categories": {
+      "auth": {
+        "bucketlista61c68f1": {},
+        "bucketlist": {},
+        "userPoolGroups": {}
+      },
+      "api": {
+        "bucketlist": {}
+      },
+      "storage": {
+        "imagesstorage": {}
+      }
+    }
+  }
+}
