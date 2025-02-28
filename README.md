@@ -1,6 +1,6 @@
 # 🎯 Bucket List Tracker  
 
-*Stay motivated and track your life goals effortlessly!*  
+*Stay loosely motivated and track your life goals idly slipping away!*  
 
 A **React-powered** bucket list web app built with a **modern serverless architecture using AWS Amplify, AWS AppSync, AWS DynamoDB, Amazon S3, and AWS Cognito**. The app is designed with a **GraphQL API, CI/CD automation, and a fully managed cloud backend**, enabling seamless CRUD operations, authentication, and media storage.  
 
@@ -19,7 +19,7 @@ All backend configurations and deployments are handled via **AWS Amplify CLI**, 
 ---
 
 ## 🏗️ Architecture Overview  
-
+![alt text](image-10.png)
 ### **How It Works**  
 
 ✔️ **User Authentication:** Secure login/sign-up handled by **Amazon Cognito**, providing multi-factor authentication (MFA) and OAuth integration.  ![alt text](image-7.png)
